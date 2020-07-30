@@ -41,7 +41,7 @@ Tindakan yang kami ketahui saat ini adalah dengan menambahkan fitur keamanan yan
 
 Untuk tindakan mitigasi lainnya yang lebih efektif masih belum bisa kami ketahui, dikarenakan Meow Attack ini yang baru muncul akhir Juli 2020 dan belum ada yang membahas terutama setelah terjadi serangan atau penanggulangan serangan tersebut.
 
-Saran Pengerjaan Projek ELK Stack
+Saran Pengerjaan Project ELK Stack
 ---------------------------------
 
 Pengerjaan projek agar maksimal dan tidak terjadi kendala dari eksternal maupun internal. 
