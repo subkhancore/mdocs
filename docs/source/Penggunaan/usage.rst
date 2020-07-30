@@ -35,7 +35,7 @@ Pada bagian ini ditampilkan perubahan tampilan terakhir yang kami lakukan. Pada 
 
 c. Tampilan Log
 
-Pada bagian ini ditampilkan log yang kami dapatkan dari server. Semua log ini memiliki ketentuan-ketentuan tertentu yang kemudian kami olah menjadi seperti pada tampilan-tampilan Kibana sebelumnya.
+Pada bagian ini ditampilkan log yang kami dapatkan dari server. Semua log ini memiliki ketentuan-ketentuan tertentu yang kemudian kami olah menjadi seperti pada tampilan-tampilan Kibana sebelumnya. Adapun semua log yang kami olah ini, memiliki format file JSON.
 
 .. image:: 2.png
 
