@@ -22,14 +22,20 @@ Tampilan
 Berikut merupakan tampilan dari Kibana dan Log
 
 a. Tampilan Kibana (putih)
-
+   
+Pada bagian ini ditampilkan tampilan Kibana yang lebih menonjolkan informasi serangan berdasarkan negara penyerang. Setiap warna yang ada pada gambar di bawah ini mengindikasikan banyaknya serangan yang dilakukan oleh negara-negara tersebut kepada server. Pada tampilan ini juga memberikan informasi tentang apa saja yang dilakukan oleh penyerang dan malware apa saja yang dimasukkan penyerang ke dalam server.
+   
 .. image:: 1.jpg
 
 b. Tampilan Kibana (hitam)
 
+Pada bagian ini ditampilkan perubahan tampilan terakhir yang kami lakukan. Pada tampilan ini, kami lebih mengedepankan informasi yang informatif tentang serangan yang dilakukan penyerang. Kami menampilkan map dengan indikator border putih untuk menunjukkan asal negara penyerang secara total, data penyerang terbanyak, dan malware terbanyak yang dimasukkan pada server. Selain itu, kami juga menunjukkan grafik serangan setiap hari dan waktu. Hal ini digunakan agar monitoring pada sistem lebih terjaga.
+
 .. image:: 3.png
 
 c. Tampilan Log
+
+Pada bagian ini ditampilkan log yang kami dapatkan dari server. Semua log ini memiliki ketentuan-ketentuan tertentu yang kemudian kami olah menjadi seperti pada tampilan-tampilan Kibana sebelumnya.
 
 .. image:: 2.png
 
