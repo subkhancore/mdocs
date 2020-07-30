@@ -13,7 +13,7 @@ ELK (Elasticsearch, Logtash, dan Kibana) adalah SIEM yang cukup terkenal karena 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:  
+   :caption: Daftar Konten:  
     
    Instalasi/install
    Penggunaan/usage
@@ -21,9 +21,4 @@ ELK (Elasticsearch, Logtash, dan Kibana) adalah SIEM yang cukup terkenal karena 
    Catatan/remarks
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
