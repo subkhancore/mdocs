@@ -51,7 +51,11 @@ exclude_patterns = ['pages/reference-architecture']
 #
 #html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
-logo_only = 'logo.png'
+html_logo = 'logo.png'
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False
+}
 #html_css_files = ['_static/style.css']
 #html_theme_options = {
 #    "rightsidebar": "false",
