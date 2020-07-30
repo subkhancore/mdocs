@@ -1,5 +1,5 @@
-Development
-===========
+Pengembangan
+=============
 
 ELK merupakan tumpukan yang terdiri dari tiga software: Elasticsearch, Logstash dan Kibana. Dengan kemampuan dari ketiga software yang digabungkan menjadi satu kesatuan, ELK Stack dapat digunakan untuk pencarian, pemrosesan data, agregasi, dan visualisasi. 
 
