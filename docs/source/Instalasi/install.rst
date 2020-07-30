@@ -144,6 +144,39 @@ logstash-dionaea.conf
                 port => 5044
         }
   }
+  filter {
+        if [document_type] == "dionaea" {
+                json {
+                        source => "message"
+                }
+
+                if [remote_host]  {
+                        mutate {
+                                copy => { "remote_host" => "remote_hostname" }
+                        }
+
+                        dns {
+                                reverse => [ "remote_hostname" ]
+                                nameserver => [ "8.8.8.8", "8.8.4.4" ]
+                                action => "replace"
+                                hit_cache_size => 4096
+                                hit_cache_ttl => 900
+                                failed_cache_size => 512
+                                failed_cache_ttl => 900
+                        }
+
+                        geoip {
+                                source => "remote_host"
+                                target => "geoip"
+                        }
+                }
+
+                mutate {
+                        remove_tag => [ "beats_input_codec_plain_applied"]
+                        remove_field => [ "source", "offset", "input_type" ]
+                }
+        }
+  }
 
   output {
         if [document_type] == "dionaea" {
