@@ -21,11 +21,15 @@ Tampilan
 
 Berikut merupakan tampilan dari Kibana dan Log
 
-a. Tampilan Kibana
+a. Tampilan Kibana (putih)
 
 .. image:: 1.jpg
 
-b. Tampilan Log
+b. Tampilan Kibana (hitam)
+
+.. image:: 3.png
+
+c. Tampilan Log
 
 .. image:: 2.png
 
