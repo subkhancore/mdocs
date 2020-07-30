@@ -1,5 +1,5 @@
-Usage
-=====
+Penggunaan
+===========
 
 ELK (Elasticsearch, Logstash dan Kibana)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
