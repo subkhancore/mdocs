@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'coba'
-copyright = '2020, arkazu'
-author = 'arkazu'
+project = 'ELK with Dionaea & Cowrie'
+copyright = '2020, The Fourth Team'
+author = 'The Fourth Team'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
